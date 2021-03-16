@@ -17,7 +17,6 @@
   
  <a class="active" href="index.php"><i class="fa fa-home"></i>Home</a>
 </div>
-  
   <div id="header">
        <br>
 	   <br>
