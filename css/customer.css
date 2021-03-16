@@ -75,9 +75,9 @@
 			background: rgba(0,0,0,0.19);
 		}
 		.btn1 {
-			background-color:Blue;
-			border: none;
-			color: white;
+			background-color:White;
+			border: black;
+			color: black;
 			border-radius:23px;
 			padding: 12px 16px;
 			font-size: 23px;

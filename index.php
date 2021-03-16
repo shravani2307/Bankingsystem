@@ -12,7 +12,7 @@
   <body>
   
   <div class="topnav">
- <a href="#contact">Contact</a>
+ <a href="#contact">About Us</a>
   <a href="transaction_history.php">Transaction History</a>
   
  <a class="active" href="index.php"><i class="fa fa-home"></i>Home</a>
@@ -24,29 +24,20 @@
 	   <br>
 	   <br>
 	   <br>
-       <h2 style=" font-family:Arial narrow ; font-size: 70px;color:#000;text-shadow: 3px 3px red;"> Basic Banking System </h2>
+       <h2 style=" font-family:Serif ; font-size: 70px;color:white;text-shadow: 5px 5px black;"> Online Money Transfer </h2>
+	   <h3 style =" font-family:Serif; font-size: 30px;color:black;text-align:center;line-height:1px;">Task 1: By Shravani Amshekar </h3>
     </div>
   <div class="button">
     <div class="container">
 	<table>
 	<tr>
-      <a href="customer_details.php" class="btn">Customer Details</a>
+      <a href="customer_details.php" class="btn">Get Started</a>
 	 
 	  </tr>
 	  
 	   </div>
 	    </div>
- <!-- 	 <div class="button">
-    <div class="container">
-	<table>
-	<tr>
-      <a href="#" class="btn">Cusails</a>
 
-	  </tr>
-	  
-	   </div>
-	    </div>
-  -->
 
   </body>
 </html>

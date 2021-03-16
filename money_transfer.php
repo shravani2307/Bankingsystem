@@ -21,7 +21,8 @@ $result=mysqli_query($con,$q);
 		
 	<style>
 body{
-	background-image: url("images/31.jpg");
+	background-image: url("images/image5.jpg");
+	background-size: 100%;
 	text-align: center;
 }
 
@@ -35,15 +36,15 @@ body{
 
 
   <div class="topnav">
- <a href="#contact">Contact</a>
-  <a href="transaction_history.php">Transaction History</a>
+ <a href="#contact">ABOUT US</a>
+  <a href="transaction_history.php">TRANSACTION HISTORY</a>
   
- <a href="index.php"><i class="fa fa-home"></i>Home</a>
+ <a href="index.php"><i class="fa fa-home"></i>HOME</a>
 </div>
 
 	<center>
 		<div class="view">
-			<br><br><h2 style=" font-size:45px;color:red;text-shadow: 2px 2px white;">Transfer Amount</h2>
+			<br><br><h2 style=" font-size:45px;color:white;text-shadow: 2px 2px blue;font-family:Serif;">Transfer Amount</h2>
 			<form action="checkcredit.php" method="post" >
 				<div class="border">
 				<table>

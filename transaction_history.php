@@ -18,7 +18,8 @@ $result=mysqli_query($con,$q);
 		
 	<style>
 body{
-	background-image: url("images/101.jpg");
+	background-image: url("images/image5.jpg")  ;
+	background-size: 100%;
 }
 </style>
 	
@@ -26,17 +27,17 @@ body{
 	<body>
 	
 	  <div class="topnav">
- <a href="#contact">Contact</a>
-  <a href="transaction_history.php">Transaction History</a>
+ <a href="#contact">ABOUT US</a>
+  <a href="transaction_history.php">TRANSACTION HISTORY</a>
   
- <a href="index.php"><i class="fa fa-home"></i>Home</a>
+ <a href="index.php"><i class="fa fa-home"></i>HOME</a>
 </div>
 	
 	
 	
 	
 		<br>
-		<h2 style="color:black;text-shadow: 2px 2px red;"><?php echo "ALL TRANSACTIONS"?></h2>
+		<h2 style="color:white;text-shadow: 2px 2px blue;"><?php echo "ALL TRANSACTIONS"?></h2>
 		<table >
 			<tr bgcolor="blue">
 				<th>Sender</th>
@@ -47,7 +48,7 @@ body{
 			
 			<?php while($row = $result->fetch_assoc()) { ?>
 			
-			<tr bgcolor="black">
+			<tr bgcolor="">
 				<td><?php echo $row["sender"]; ?></td>
 				<td><?php echo $row["receiver"]; ?></td>
 				<td><?php echo $row["amount"]; ?></td>
@@ -60,5 +61,4 @@ body{
 		
 		
 	</body>
-</html>
 </html>

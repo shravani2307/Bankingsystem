@@ -19,7 +19,8 @@ $row_count=mysqli_num_rows($result);
 	
 	<style>
 body{
-	background-image: url("images/25.png");
+	background-image: url("images/image5.jpg");
+	background-size: 100%;
 }
 </style>
    
@@ -30,14 +31,14 @@ body{
 
 
   <div class="topnav">
- <a href="#contact">Contact</a>
-  <a href="transaction_history.php">Transaction History</a>
+ <a href="#contact">ABOUT US</a>
+  <a href="transaction_history.php">TRANSACTION HISTORY</a>
   
- <a href="index.php"> <i class="fa fa-home"></i>Home</a>
+ <a href="index.php"> <i class="fa fa-home"></i>HOME</a>
 </div>
 
-	<h1 style="color:red;text-shadow: 2px 2px white;">CUSTOMER DETAILS</h1>
-    <table background="images/26.jpg">
+	<h1 style="color:white;text-shadow: 2px 2px blue; font-family:Serif;">CUSTOMER DETAILS</h1>
+    <table background="images26.jpg">
 
 
 		<thead bgcolor="blue">
@@ -61,7 +62,7 @@ body{
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="customer.php" method="post"  class="view">
-					<button class="button1" type="submit" name="name" value="Shweta">View</button>
+					<button class="button1" type="submit" name="name" value="Shravani">View</button>
 				
 				</form>
 			</td>
@@ -76,7 +77,7 @@ body{
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="customer.php" method="post" class="view">
-					<button class="button1" type="submit" name="name" value="Siya">View</button>
+					<button class="button1" type="submit" name="name" value="Arya">View</button>
 				</form>
 			</td>
 		</tr>
@@ -90,7 +91,7 @@ body{
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="customer.php" method="post" class="view">
-					<button class="button1" type="submit" name="name" value="Rohan">View</button>
+					<button class="button1" type="submit" name="name" value="Martin">View</button>
 				</form>
 			</td>
 		</tr>
@@ -104,7 +105,7 @@ body{
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="customer.php" method="post" class="view">
-					<button class="button1" type="submit" name="name" value="Shrey">View</button>
+					<button class="button1" type="submit" name="name" value="Shriya">View</button>
 				</form>
 			</td>
    
@@ -120,7 +121,7 @@ body{
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="customer.php" method="post" class="view">
-					<button class="button1" type="submit" name="name" value="Riya">View</button>
+					<button class="button1" type="submit" name="name" value="Ram">View</button>
 				</form>
 			</td>
 		</tr>
@@ -134,7 +135,7 @@ body{
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="customer.php" method="post" class="view">
-					<button class="button1" type="submit" name="name" value="Myron">View</button>
+					<button class="button1" type="submit" name="name" value="Anish">View</button>
 				</form>
 			</td>
         </tr>
@@ -149,7 +150,7 @@ body{
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="customer.php" method="post" class="view">
-					<button class="button1"type="submit" name="name" value="Shreya">View</button>
+					<button class="button1"type="submit" name="name" value="Riya">View</button>
 				</form>
 			</td>
 		</tr>
@@ -163,7 +164,7 @@ body{
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="customer.php" method="post" class="view">
-					<button class="button1"type="submit" name="name" value="Raj">View</button>
+					<button class="button1"type="submit" name="name" value="Mann">View</button>
 				</form>
 			</td>
 		</tr>
@@ -177,7 +178,7 @@ body{
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="customer.php" method="post" class="view">
-					<button class="button1"type="submit" name="name" value="Anisha">View</button>
+					<button class="button1"type="submit" name="name" value="Anusha">View</button>
 				</form>
 			</td>
         </tr>
@@ -191,7 +192,7 @@ body{
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="customer.php" method="post" class="view">
-					<button class="button1"type="submit" name="name" value="Asif">View</button>
+					<button class="button1"type="submit" name="name" value="Tejas">View</button>
 				</form>
 			</td>
 		</tr> 

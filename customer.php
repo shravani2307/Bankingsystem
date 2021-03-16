@@ -22,7 +22,7 @@ $_SESSION['name']=$name;
 		
 	<style>
 body{
-	background-image: url("images/41.png");
+	background-image: url("images/image5.jpg");
 }
 </style>
 	
@@ -32,10 +32,10 @@ body{
 	
 	
   <div class="topnav">
- <a href="#contact">Contact</a>
-  <a href="transaction_history.php">Transaction History</a>
+ <a href="#contact">ABOUT US</a>
+  <a href="transaction_history.php">TRANSACTION HISTORY</a>
   
- <a href="index.php"><i class="fa fa-home"></i>Home</a>
+ <a href="index.php"><i class="fa fa-home"></i>HOME</a>
 </div>
 	
 	<br><br><br>
@@ -64,7 +64,7 @@ body{
         <br>
      <div class="buttons">
 	<a href="money_transfer.php">
-		<button class="btn">Transfer To</button>
+		<button style="background-color:blue;color:#fff; font-size:18px;height:50px; width:150px; class="btn">Transfer To</button>
 	</a>
 	</div>
 	<br>
